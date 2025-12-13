@@ -1,0 +1,11 @@
+{
+    "serving_type": "anthropic_vertexai",
+    "model_name": "claude-haiku-4-5@20251001",
+    "location": "global",
+    "project_id": "your-project-id",
+    "semaphore_max_count": 32,
+    "credentials_path": "/your/credentials/path/credentials.json",
+    "sampling_params": {
+        "max_tokens": 64000
+    }
+}

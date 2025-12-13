@@ -1,0 +1,8 @@
+{
+    "serving_type": "azure",
+    "model_name": "gpt-5-2025-08-07",
+    "semaphore_max_count": 32,
+    "api_version": "2025-03-01-preview",
+    "base_url": "your-base-url",
+    "api_key": "your-api-key"
+}

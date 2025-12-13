@@ -1,0 +1,12 @@
+{
+    "serving_type": "vertexai",
+    "model_name": "gemini-3-pro-preview",
+    "project_id": "your-project-id",
+    "semaphore_max_count": 32,
+    "credentials_path": "/your/credentials/path/credentials.json",
+    "sampling_params": {
+        "thinking_config": {
+            "thinking_level": "high"
+        }
+    }
+}

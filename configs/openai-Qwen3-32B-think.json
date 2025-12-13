@@ -1,0 +1,17 @@
+{
+    "serving_type": "openai",
+    "model_name": "Qwen/Qwen3-32B",
+    "semaphore_max_count": 32,
+    "base_url": "your-base-url",
+    "api_key": "your-api-key",
+    "sampling_params": {
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "temperature": 0.3
+    },
+    "chat_template_kwargs": {
+        "enable_thinking": true
+    },
+    "tokenizer_path": "Qwen/Qwen3-32B",
+    "response_prefix": "</think>"
+}

@@ -1,0 +1,20 @@
+{
+    "serving_type": "vllm",
+    "model_name": "Qwen3-8B",
+    "model_path": "",
+    "max_user_input_tokens": 16384,
+    "torch_dtype": "bfloat16",
+    "serving_params": {
+        "max_seq_len_to_capture": 32768,
+        "gpu_memory_utilization": 0.90,
+        "swap_space": 16,
+        "seed": 42
+    },
+    "sampling_params": {
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "temperature": 0.3
+    },
+    "enable_thinking": true,
+    "response_prefix": "</think>"
+}
